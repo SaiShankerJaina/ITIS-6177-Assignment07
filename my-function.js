@@ -3,7 +3,6 @@ export const handler = async (event) => {
     const keyword = event.queryStringParameters.keyword;
     const name = "Sai Shanker Jaina";
     const message = `${name} says ${keyword}`;
-    
     const response = {
       statusCode: 200,
       body: JSON.stringify(message),
