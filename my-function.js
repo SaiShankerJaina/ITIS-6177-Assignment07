@@ -1,7 +1,7 @@
 export const handler = async (event) => {
     // TODO implement
     const keyword = event.queryStringParameters.keyword;
-    const name = "Praveen kumar Chettibilli";
+    const name = "Sai Shanker Jaina";
     const message = `${name} says ${keyword}`;
     
     const response = {
